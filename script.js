@@ -1,12 +1,8 @@
 
 
-function  SetOn() {
+function changeStyle(){
 
-    document.getElementById("myImage").src = 'img/pic_bulbon.gif';
+   var statement= document.getElementById("demo");
 
-}
-
-function SetOff() {
-
-    document.getElementById("myImage").src = 'img/pic_bulboff.gif'
+       statement.style.fontSize = "50px";
 }
