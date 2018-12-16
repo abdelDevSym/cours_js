@@ -1,8 +1,17 @@
 
+function calcul() {
 
-function changeStyle(){
+    var x = 5 , y = 5 , z ;
 
-   var statement= document.getElementById("demo");
+    z = x + y;
 
-       statement.style.fontSize = "50px";
+    document.getElementById("demo").innerHTML = "The value of z is " + z + "<br>";
+
 }
+
+
+
+
+
+
+
